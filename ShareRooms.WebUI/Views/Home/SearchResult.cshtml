@@ -1,0 +1,51 @@
+﻿
+@model IEnumerable<ShareRooms.WebUI.Models.ViewModelResult>
+
+@{
+    Layout = null;
+}
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchResult</title>
+</head>
+
+<table class="table">
+        <tr>
+            <th>
+                Street Address
+            </th>
+            <th>
+                State
+            </th>
+            <th>
+                Country
+            </th>
+            <th>
+                Room Size(SF)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var p in Model)
+        {
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => p.Properties.)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => p.State)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => p.Country)
+            </td>
+            <td>
+              
+            </td>
+
+        </tr>
+         }
+</table>
+
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareRooms.WebUI", "ShareRooms.WebUI\ShareRooms.WebUI.csproj", "{40EDD04E-2BE6-4276-875D-7B3050027FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareRooms.Domain", "ShareRooms.Domain\ShareRooms.Domain.csproj", "{47846791-145F-445D-889F-79143CE7889C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40EDD04E-2BE6-4276-875D-7B3050027FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EDD04E-2BE6-4276-875D-7B3050027FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EDD04E-2BE6-4276-875D-7B3050027FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EDD04E-2BE6-4276-875D-7B3050027FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47846791-145F-445D-889F-79143CE7889C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47846791-145F-445D-889F-79143CE7889C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47846791-145F-445D-889F-79143CE7889C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47846791-145F-445D-889F-79143CE7889C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {842A8AE8-62A0-4A46-87DA-BE43CE879341}
+	EndGlobalSection
+EndGlobal
