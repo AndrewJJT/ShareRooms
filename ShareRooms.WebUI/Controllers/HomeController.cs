@@ -31,9 +31,10 @@ namespace ShareRooms.WebUI.Controllers
             .Join(db.Rooms, (p => p.RoomID),
             (r => r.RoomID), ((p, r) => new { p.Streetaddress, p.State, p.Country, r.SizeinSqFt}))
             .Where(x => x.p.Country.Contains(Country));
-      
-                        
-            return View("SearchResult", result.Properties.ToList());
+
+
+            //  return View("SearchResult", result.Properties.ToList());
+            return View("SearchResult", result.Properties.ToList()); // test for github
         }
     }
 }
